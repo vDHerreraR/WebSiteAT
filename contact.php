@@ -86,52 +86,64 @@
                                     </div>
                                 </div>
                             </div>
-                            <input type="submit" class="btn btn-red mt-0" value="Send" name="enviar">
-                            <div class="status bg-green ">
+                            <div class="mb-2 mx-2 px-3 py-1">
                                 <?php
-                            if (isset($_POST['enviar'])) {
-                                $userName = $_POST['user'];
-                                $email = $_POST['email'];
-                                $subject = $_POST['subject'];
-                                $message = $_POST['description'];
+                                if (isset($_POST['enviar'])) {
+                                    if ($_POST['g-recaptcha-response'] == '') {
+                                        echo '<div class="alert alert-danger" role="alert">
+                                        Captche Invalido
+                                      </div>';
+                                    } else {
+                                        $userName = $_POST['user'];
+                                        $email = $_POST['email'];
+                                        $subject = $_POST['subject'];
+                                        $message = $_POST['description'];
 
-                                $email_from = 'victor_herreraro@fet.edu.co';
-                                $email_subject = "Mensaje de contacto";
-                                $email_body ="Name: $userName. \n".
-                                            "Email: $email. \n".
-                                            "Titulo: $subject. \n".
-                                            "Message: $message. \n";
+                                        $email_from = 'victor_herreraro@fet.edu.co';
+                                        $email_subject = "Mensaje de contacto";
+                                        $email_body ="Name: $userName. \n".
+                                                    "Email: $email. \n".
+                                                    "Titulo: $subject. \n".
+                                                    "Message: $message. \n";
 
-                                $email_to = "drogasvargas99@gmail.com";
-                                $header = "From: $email_from \r\n";
-                                $header .= "Reply-To: $email \r\n"; 
+                                        $email_to = "drogasvargas99@gmail.com";
+                                        $header = "From: $email_from \r\n";
+                                        $header .= "Reply-To: $email \r\n"; 
 
-                                $obj = new stdClass();
-                                $obj->secret = "6LcT4nkaAAAAAFVQbz4mJxylC8j5RXdTwwDB_gVE";
-                                $obj->response = $_POST['g-recaptcha-response'];
-                                $obj->remoteip = $_SERVER['REMOTE_ADDR'];
-                                $url = 'https://www.google.com/recaptcha/api/siteverify';
-                                $options = array(
-                                    'http' => array(
-                                    'header' => "Content-type: application/x-www-form-urlencoded\r\n",
-                                    'method' => 'POST',
-                                    'content' => http_build_query($obj)
-                                    )
-                                    );
+                                        $obj = new stdClass();
+                                        $obj->secret = "6LcT4nkaAAAAAFVQbz4mJxylC8j5RXdTwwDB_gVE";
+                                        $obj->response = $_POST['g-recaptcha-response'];
+                                        $obj->remoteip = $_SERVER['REMOTE_ADDR'];
+                                        $url = 'https://www.google.com/recaptcha/api/siteverify';
+                                        $options = array(
+                                            'http' => array(
+                                            'header' => "Content-type: application/x-www-form-urlencoded\r\n",
+                                            'method' => 'POST',
+                                            'content' => http_build_query($obj)
+                                            )
+                                            );
 
-                                $context = stream_context_create($options);
-                                $result = file_get_contents($url, false, $context);
-                                $validar = json_decode($result);
+                                        $context = stream_context_create($options);
+                                        $result = file_get_contents($url, false, $context);
+                                        $validar = json_decode($result);
 
-                                if ($validar->success) {
-                                    mail($email_to,$email_subject,$email_body,$header);
-                                    echo "Mensaje Enviado";
-                                }else {
-                                    echo "Mensaje No Enviado, Se presento un error por favor mirar";
-                                    
+                                        if ($validar->success) {
+                                            mail($email_to,$email_subject,$email_body,$header);
+                                            echo '<div class="alert alert-success" role="alert">
+                                            Mensaje Enviado
+                                          </div>';
+                                            echo "<span style='background-color: green;'></span>";
+                                        }else {
+                                            echo '<div class="alert alert-danger" role="alert">
+                                            Mensaje No Enviado, Se presento un error por favor mirar
+                                          </div>';                                            
+                                        }
+                                    }
                                 }
-                            }
-                        ?>
+                            ?>
+                            </div>
+                            <div class="col-12">
+                                <input type="submit" class="btn btn-red mt-0" value="Send" name="enviar">
                             </div>
                         </div>
                     </form>
