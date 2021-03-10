@@ -26,8 +26,8 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- responsive Stylesheet -->
-    <link rel="stylesheet" href="assets/css/responsive.css">   
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!--Codingeek -->
-    <link rel="stylesheet" href="assets/js/codingeek-js/codingeek.html">  
-
+    <link rel="stylesheet" href="assets/js/codingeek-js/codingeek.html">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
