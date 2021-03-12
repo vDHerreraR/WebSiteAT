@@ -283,17 +283,15 @@
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-11 text-center">
                     <div class="section-title text-center">
-                        <h2 class="title">Get our latest <span>Newslatter</span></h2>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests. support team will get assistance from AI-powered suggestions.
-                        </p>
+                        <h2 class="title">Obtenga nuestras <span>Notificaciones</span></h2>
+                        <p>Envia tu correo para suscribirte para las ultimas noticias.</p>
                     </div>
                     <div class="newsletter-subcribe">
                         <form id="news-subcribeform" class="subcribe-form">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Your E-mail..." name="mail"
                                     required="">
-                                <button type="submit" class="btn-blue subcribe-submit">submit</button>
+                                <button type="submit" class="btn-blue subcribe-submit">Enviar</button>
                             </div>
                         </form>
                     </div>
