@@ -23,10 +23,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-inner">
-                        <h1 class="page-title">Service</h1>
+                        <h1 class="page-title">Servicio</h1>
                         <ul class="page-list">
-                            <li><a href="index.php">Home</a></li>
-                            <li>Service</li>
+                            <li><a href="index.php">Inicio</a></li>
+                            <li>Servicio</li>
                         </ul>
                     </div>
                 </div>
@@ -41,98 +41,96 @@
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-10">
                     <div class="section-title text-center margin-bottom-90">
-                        <h2 class="title">What <span>Service</span> We are Providing?</h2>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests. support team will get assistance AI-powered suggestions.</p>
+                        <h2 class="title wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.1s">Nuestros
+                            <span>Servicios</span>
+                        </h2>
+                        <p class="wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.2s">Disponibilidad
+                            de ofrecer a tu negocio la mejor asistencia para un crecimiento.</p>
                     </div>
                 </div>
             </div>
             <div class="row custom-gutters-16">
                 <div class="col-xl-3 col-md-6 col-sm-6">
-                    <div class="single-service">
-                        <img src="assets/img/service/project.svg" alt="service">
-                        <h6><a href="#">Branding Idendity</a></h6>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests.</p>
-                        <div class="read-more">
-                            <a href="#"><img src="assets/img/service/arrow.png" alt="arrow"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6 col-sm-6">
-                    <div class="single-service">
-                        <img src="assets/img/service/hiring.svg" alt="service">
-                        <h6><a href="#">Business Consultancy</a></h6>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests.</p>
-                        <div class="read-more">
-                            <a href="#"><img src="assets/img/service/arrow.png" alt="arrow"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6 col-sm-6">
-                    <div class="single-service">
-                        <img src="assets/img/service/checklist.svg" alt="service">
-                        <h6><a href="#">UI/UX - Design</a></h6>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests.</p>
-                        <div class="read-more">
-                            <a href="#"><img src="assets/img/service/arrow.png" alt="arrow"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6 col-sm-6">
-                    <div class="single-service">
+                    <div class="single-service wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <img src="assets/img/service/analytics.svg" alt="service">
-                        <h6><a href="#">Market Analysis</a></h6>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests.</p>
+                        <h6><a href="#">Logos & Branding</a></h6>
+                        <p>Te diseñamos tu propio logo personalizado y asesoramiento especializado para que marca sea la
+                            unica en el mercado.</p>
+                        <div class="read-more">
+                            <a href="#">Ver mas<img src="assets/img/service/arrow.png" alt="arrow"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6">
+                    <div class="single-service wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <img src="assets/img/service/5.svg" alt="service">
+                        <h6><a href="#">Productos Como servicios</a></h6>
+                        <p>Variedades de productos para ti y tu negocio con una excelente calidad profesional .</p>
+                        <div class="read-more">
+                            <a href="#">Ver mas<img src="assets/img/service/arrow.png" alt="arrow"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6">
+                    <div class="single-service wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <img src="assets/img/service/analytics.svg" alt="service">
+                        <h6><a href="#">Marketing & Publicidad</a></h6>
+                        <p>Nuestra estrategia integral de marketing aumentará su sitio web y tráfico, por lo tanto,
+                            ventas mensuales.</p>
                         <div class="read-more">
                             <a href="#"><img src="assets/img/service/arrow.png" alt="arrow"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-sm-6">
-                    <div class="single-service">
-                        <img src="assets/img/service/5.svg" alt="service">
-                        <h6><a href="#">Digital Magketing</a></h6>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests.</p>
+                    <div class="single-service wow animated fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.2s">
+                        <img src="assets/img/service/4.svg" alt="service">
+                        <h6><a href="#">Desarrollo Movil</a></h6>
+                        <p>Te brindamos nuestro servicio desde lo minino a mas complejo con una calidad profesional.</p>
                         <div class="read-more">
-                            <a href="#"><img src="assets/img/service/arrow.png" alt="arrow"></a>
+                            <a href="#">Ver mas <img src="assets/img/service/arrow.png" alt="arrow"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6">
+                    <div class="single-service wow animated fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                        <img src="assets/img/service/checklist.svg" alt="service">
+                        <h6><a href="#">Diseño Web</a></h6>
+                        <p>Diseñamos sitios web de un aspecto profesional, brindando ser dinamico y facil de usar.</p>
+                        <div class="read-more">
+                            <a href="#">Ver mas <img src="assets/img/service/arrow.png" alt="arrow"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-6">
+                    <div class="single-service wow animated fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.1s">
+                        <img src="assets/img/service/project.svg" alt="service">
+                        <h6><a href="#">Desarrollo Web</a></h6>
+                        <p>Nuestros servicios de desarrollo es de calidad,con una tecnologia que es ideal para
+                            ti.</p>
+                        <div class="read-more">
+                            <a href="#">ver mas <img src="assets/img/service/arrow.png" alt="arrow"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-sm-6">
                     <div class="single-service">
                         <img src="assets/img/service/6.svg" alt="service">
-                        <h6><a href="#">Problem Solution</a></h6>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests.</p>
+                        <h6><a href="#">Solucion a problemas</a></h6>
+                        <p>Te brindamos soluciones y asesoramiento a problemas o mejoras a tu sistema.</p>
                         <div class="read-more">
-                            <a href="#"><img src="assets/img/service/arrow.png" alt="arrow"></a>
+                            <a href="#">Ver mas<img src="assets/img/service/arrow.png" alt="arrow"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 col-sm-6">
                     <div class="single-service">
                         <img src="assets/img/service/7.svg" alt="service">
-                        <h6><a href="#">Project Analysis</a></h6>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests.</p>
+                        <h6><a href="#">Analisis a tu proyecto</a></h6>
+                        <p>Te damos soporte de analisar tu proyecto por fases y avances que puede tener y administrar tu
+                            sistema.</p>
                         <div class="read-more">
-                            <a href="#"><img src="assets/img/service/arrow.png" alt="arrow"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6 col-sm-6">
-                    <div class="single-service">
-                        <img src="assets/img/service/8.svg" alt="service">
-                        <h6><a href="#">Testing</a></h6>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests.</p>
-                        <div class="read-more">
-                            <a href="#"><img src="assets/img/service/arrow.png" alt="arrow"></a>
+                            <a href="#">Ver mas <img src="assets/img/service/arrow.png" alt="arrow"></a>
                         </div>
                     </div>
                 </div>
@@ -147,10 +145,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-9">
                     <div class="section-title text-center">
-                        <h2 class="title">Choose your <span>pricing</span></h2>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to handle support requests. Our support team will get assistance from AI-powered
-                            suggestions.</p>
+                        <h2 class="title">Los planes ideales para <span>Ti</span></h2>
+                        <p>Tenemos variedades de planes para que surga tu proyecto empresarial.</p>
                     </div>
                 </div>
             </div>
@@ -161,7 +157,7 @@
                         <div class="thumb">
                             <img src="assets/img/price/1.png" alt="pricing">
                         </div>
-                        <h3 class="price">Free <span>/anully</span></h3>
+                        <h3 class="price">Gratis <span>/anully</span></h3>
                         <ul>
                             <li>1000 Messages per month</li>
                             <li>2 GB file storage</li>
@@ -230,9 +226,9 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-9">
                     <div class="section-title style-two text-center">
-                        <h2 class="title">What Our <span>Client Say?</span></h2>
-                        <p>Our support team will get assistance from AI-powered suggestions, making it quicker than ever
-                            to support requests. Our support team will get from AI-powered suggestions.</p>
+                        <h2 class="title">Que dice Nuestros <span>Clientes?</span></h2>
+                        <p>Aqui te damos las experiencias de las personas que solicitaron nuestros servicios o productos
+                            de calidad.</p>
                     </div>
                 </div>
             </div>

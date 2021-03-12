@@ -7,7 +7,7 @@
                     <div class="footer-widget widget">
                         <div class="about_us_widget">
                             <a href="index.html" class="footer-logo">
-                                <img src="assets/img/logo.png" alt="footer logo">
+                                <img src="assets/img/lgArcaTech.png" alt="footer logo">
                             </a>
                             <p>Our support team will get assistance from AI-powered suggestions, making it quicker than
                                 ever to handle support requests.</p>
@@ -88,7 +88,7 @@
     <div class="copyright-inner">
         <div class="copyright-text">
             &copy; Riyaqas 2020 All rights reserved, Powered with <a href="#" target="_blank"><i
-                    class="fa fa-heart"></i>by <span>Codingeek.</span></a>
+                    class="fa fa-heart"></i>by <span>ArcaTech.</span></a>
         </div>
     </div>
 </footer>

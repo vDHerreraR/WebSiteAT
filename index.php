@@ -655,10 +655,6 @@
                         </div>
                     </div>
                 </div>
-
-
-            </div>
-            <div class="row justify-content-center">
                 <div class="col-xl-3 col-md-6 col-sm-6">
                     <div class="single-service wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <img src="assets/img/service/analytics.svg" alt="service">
