@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Riyaqas - Sass Landing HTML Template</title>
+    <title>ArcaTech</title>
     <!-- favicon -->
     <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
     <!-- animate -->

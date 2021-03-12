@@ -1,5 +1,7 @@
 <!--SEARCH -->
-<?php require('search.php'); ?>
+<?php
+require('search.php'); 
+?>
 <!--END SEARCH -->
 
 <!-- navbar area start -->
@@ -8,7 +10,7 @@
         <div class="responsive-mobile-menu">
             <div class="logo-wrapper mobile-logo">
                 <a href="index.html" class="logo">
-                    <img src="assets/img/logo.png" alt="logo">
+                    <img src="assets/img/lgArcaTech.png" alt="logo">
                 </a>
             </div>
             <div class="nav-right-content">
@@ -78,41 +80,45 @@
         <div class="collapse navbar-collapse" id="Riyaqas_main_menu">
             <div class="logo-wrapper desktop-logo">
                 <a href="index.php" class="logo">
-                    <img src="assets/img/logo.png" alt="logo">
+                    <img src="assets/img/lgArcaTech.png" alt="logo">
                 </a>
             </div>
             <ul class="navbar-nav">
                 <li>
-                    <a href="index.php">Home</a>
+                    <a href="index.php">Inicio</a>
                 </li>
                 <li class="menu-item-has-children">
-                    <a href="#">About us</a>
+                    <a href="index.php#1">Nosotros</a>
                     <ul class="sub-menu">
-                        <li><a href="about.php#1">Que Hacemos?</a></li>
-                        <li><a href="about.php#2">Porque Somos los mejores?</a></li>
-                        <li><a href="about.php#3">Nuestro equipo de trabajo</a></li>
-                        <li><a href="about.php#4">Clientes Satisfechos</a></li>
+                        <li><a href="index.php#2">Que Hacemos?</a></li>
+                        <li><a href="index.php#3">Porque Somos los mejores?</a></li>
+                        <li><a href="index.php#4">Nuestro equipo de trabajo</a></li>
+                        <li><a href="index.php#5">Clientes Satisfechos</a></li>
+                        <li><a href="index.php#6">Nuestro Portafolio</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="shop.php">Shop</a>
+                    <a href="index.php#servicio">Servicios</a>
+                </li>
+                <li>
+                    <a href="index.php#productos">Ventas</a>
                 </li>
                 <li>
                     <a href="blog.php">Blog</a>
                 </li>
-                <li>
-                    <a href="service.php">Service</a>
-                </li>
-                <li>
+                <!--<li>
                     <a href="job-listing.php">Career</a>
-                </li>
+                </li>-->
                 <li>
-                    <a href="contact.php">Contact</a>
+                    <a href="contact.php">Contactar</a>
                 </li>
             </ul>
         </div>
         <div class="nav-right-content">
             <ul>
+                <li class="formuser">
+                    <i class="fa fa-user-o"></i>
+                </li>
                 <li class="search">
                     <i class="ti-search"></i>
                 </li>

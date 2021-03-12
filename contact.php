@@ -24,10 +24,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-inner">
-                        <h1 class="page-title">Contact</h1>
+                        <h1 class="page-title">Como Contactarnos</h1>
                         <ul class="page-list">
                             <li><a href="index.php">Home</a></li>
-                            <li>Contact</li>
+                            <li>Contactenos</li>
                         </ul>
                     </div>
                 </div>
@@ -42,9 +42,9 @@
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-8">
                     <div class="section-title text-center w-100">
-                        <h2 class="title">Send you <span>inquary</span></h2>
-                        <p>Why I say old chap that is, spiffing jolly good a load of old tosh spend a penny tosser arse
-                            over tit, excuse my French owt to do with me up the kyver matie boy.</p>
+                        <h2 class="title">Envia tus <span>Consultas</span></h2>
+                        <p>Para Nosotros es muy importante escuchar tus consultas o dudas que tienes, Aqui puedes
+                            comunicarte con nosotros ArcaTech.</p>
                     </div>
                 </div>
             </div>

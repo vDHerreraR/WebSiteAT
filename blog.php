@@ -23,10 +23,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-inner">
-                        <h1 class="page-title">Blog Grid</h1>
+                        <h1 class="page-title">Nuestro Blog</h1>
                         <ul class="page-list">
-                            <li><a href="index.php">Home</a></li>
-                            <li>Blog Grid</li>
+                            <li><a href="index.php">Inicio</a></li>
+                            <li>Blog</li>
                         </ul>
                     </div>
                 </div>
@@ -219,9 +219,13 @@
                         <div class="widget widget_search">
                             <form class="search-form">
                                 <div class="form-group">
-                                    <input type="text" placeholder="Search">
+                                    <input class="form-control" type="text" placeholder="Search">
                                 </div>
-                                <button class="submit-btn" type="submit"><i class="fa fa-search"></i></button>
+                                <div class="form-group">
+                                    <button class="btn btn-outline-primary btn-block text-center" type="submit"><i
+                                            class="fa fa-search"></i></button>
+                                </div>
+
                             </form>
                         </div>
                         <div class="widget widget-recent-post">

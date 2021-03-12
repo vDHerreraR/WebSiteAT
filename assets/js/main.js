@@ -415,7 +415,6 @@
             e.preventDefault();
             $(this).parent().fadeOut();
         });
-        
        
         /*--------------------------------------------
             Search Popup
